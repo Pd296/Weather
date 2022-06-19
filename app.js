@@ -27,7 +27,7 @@ const apiKey="6607bdcbde36869f8010bf7b557ea0dd";
            // const icon= weatherData.weather[0].icon;
            // const img_url= "https://api.openweathermap.org/img/wn/"+icon+"@2x.png";
             res.write("<P>The weather is current "+"<em>"+description+"</em></p>");
-            res.write("<h1>The temp in"+ query+ "is "+"<em>"+ temp +"</em>"+", but it feel like "+"<em>" +feels_like+"</em>" +"</h1>");
+            res.write("<h1>The temp in"+ query+ " is "+"<em>"+ temp +"</em>"+", but it feel like "+"<em>" +feels_like+"</em>" +"</h1>");
           //  res.write("<img src="+img_url+">");
             res.send(); 
         })
